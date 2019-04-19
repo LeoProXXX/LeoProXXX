@@ -82,26 +82,14 @@
             });
         }
       </script>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="nav navbar-nav">
-            <li><a class="nav-link" href="index.html">Home</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a id="logout" class="nav-link" href="#" onclick="logout()">Logout</a></li>            
+      <a id="logout" class="nav-link" href="#" onclick="logout()">Logout</a>
             <fb:login-button
                 id="fb-btn"
                 scope="public_profile,email"
                 onlogin="checLoginState();">
             </fb:login-button>
-          </ul>
-        </div>
-      </nav>
+
 
       <div class="container">
         <h3 id="heading">Log in to view your profile</h3>
